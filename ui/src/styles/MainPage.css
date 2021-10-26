@@ -1,0 +1,39 @@
+.wrapper {
+  width: 100%;
+  display: inline-flex;
+  padding: 0 50px;
+  margin-top: 80px;
+  align-items: center;
+  background-color: rgb(236, 236, 236)
+}
+
+.period {
+  display: flex;
+  margin: 0px 20px;
+  align-items: center;
+}
+
+.detailingWrapper {
+  display: inline-flex;
+  padding: 10px;
+}
+
+.detailing {
+  background: grey;
+  color: #000;
+  padding: 5px 10px;
+  background-color: #fff;
+  transition: 0.4s;
+}
+
+.detailingChosen {
+  background: rgb(20, 143, 43);
+  color: #fff;
+}
+
+.datesInPeriod {
+  margin-top: 50px;
+  width: 100%;
+  padding: 50px;
+  background-color: rgb(236,236,236);
+}

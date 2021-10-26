@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS periods;
+
+CREATE TABLE periods (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  start_date DATE NOT NULL,
+  stop_date DATE NOT NULL
+);

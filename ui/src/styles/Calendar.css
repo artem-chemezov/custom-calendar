@@ -1,0 +1,8 @@
+.custom-picker .ant-picker-footer {
+  width: auto;
+  min-width: auto;
+}
+
+.custom-picker .ant-picker-footer-extra {
+  padding: 0 0;
+}

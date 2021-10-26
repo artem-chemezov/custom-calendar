@@ -1,19 +1,11 @@
-import { withStyles } from "@material-ui/styles";
-
-const styles = theme => ({
-  pickers: {
-    margin: '20px'
-  }
-})
+import '../styles/RightPicker.css';
 
 const RightPickers = props => {
-  const { classes } = props;
-
 
   return (
-    <div className={classes.pickers}>
+    <div className='pickers'>
       <button onClick={props.clickWeek}>
-          Неделя
+      Неделя
       </button>
       <button  onClick={props.clickMonth}>
       Месяц
@@ -29,4 +21,4 @@ const RightPickers = props => {
   ); 
 }
 
-export default withStyles(styles)(RightPickers);
+export default RightPickers;
